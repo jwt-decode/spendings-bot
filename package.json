@@ -1,0 +1,27 @@
+{
+  "name": "spendings-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^132.0.0",
+    "lru-cache": "^10.2.0",
+    "luxon": "^3.5.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.15.4",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
